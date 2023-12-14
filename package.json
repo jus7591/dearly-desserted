@@ -7,11 +7,13 @@
     "sass:build": "sass --no-source-map scss:css",
     "sass:watch": "sass --no-source-map --watch scss:css"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "author": "Justin",
+  "license": "",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "bootstrap": "^5.2.3",
     "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }
