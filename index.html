@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/DDlogo.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>dearly Desserted - Boutique Bakery</title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('wQDnfe9N45R6tE4CL');
+      })();
+    </script>
+  </head>
+  <body id="home">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparae">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="images/DDlogo.png" alt="" width="250" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <!--- Modal From About Me-->
+              <a class="nav-link" href="#" id="myBtn">About Me</a>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Welcome! My name is Kelli Turner and I am a boutique baker.  I would love to help you out with any kind of special event you may have, birthdays, anniversaries, wedding or baby showers, company events, church functions, holiday parties, or to simply say thank you. 
+                    I specialize in delicious dessert bars and cheesecake for any occasion.
+                    Dessert bars range from $1.25-$1.75 per bar depending on what type of bar. 
+                    Plain cheesecake is $25
+                    Cheesecake with add ins (Oreos, toffee bits, cherry) are $30.</p>
+                </div>
+              </div>
+              <!--- End Of Modal -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-form">Contact Me</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="https://www.facebook.com/profile.php?id=100047320602218">
+                <i class="fas fa-circle fa-stack-2x" style="color: #3d81f0"></i>
+                <i class="fab fa-facebook-f fa-stack-2x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header py-7 vh-100">
+      <div class="background">
+        <div class="box-para">
+          <div class="text">
+            <div>
+              <h3>Welcome!</h3>
+              <p>
+                Welcome to dearly Desserted! My name is Kelli and I'm a boutique
+                baker in the Oklahoma City market. I specialize in delicious
+                dessert bars, charcuterie dessert trays, and cheesecakes for any
+                occasion. Please contact me for more information or to order via
+                the links below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">my <span> gallery</span></h1>
+
+      <div class="gallery-container">
+        <a href="images/dessert1.jpg" class="box">
+          <img src="images/dessert1.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/pie2.jpg" class="box">
+          <img src="images/pie2.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/bars.jpg" class="box">
+          <img src="images/bars.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/bacon.jpg" class="box">
+          <img src="images/bacon.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/easter.jpg" class="box">
+          <img src="images/easter.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/bailey.jpg" class="box">
+          <img src="images/bailey.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/strawberry.jpg" class="box">
+          <img src="images/strawberry.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/hotcoco.jpg" class="box">
+          <img src="images/hotcoco.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+
+        <a href="images/char.jpg" class="box">
+          <img src="images/char.jpg" alt="" />
+          <div class="icons"><i class="fas fa-plus"></i></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form">
+      <div class="location-box">
+        <div class="box">
+          <p>
+            <div class="background-map">
+              <h3>Location</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415855.9404712863!2d-97.47919744999999!3d35.48264794999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ad8a547ef8d281%3A0x33a21274d14f3a9d!2sOklahoma%20City%2C%20OK!5e0!3m2!1sen!2sus!4v1702386806942!5m2!1sen!2sus"
+                id="map"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="contact-us">
+        <form>
+          <h3>Contact Me Now!</h3>
+          <input id="name" placeholder="Name" type="text" required />
+          <input
+            id="telephone"
+            name="customerPhone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="Phone"
+            type="tel"
+            maxlength="12"
+          />
+          <input
+            id="email"
+            name="customerEmail"
+            placeholder="Email"
+            type="email"
+            required
+          />
+          <textarea class="form-control" id="message" rows="3"></textarea>
+          <a class="button type--A" type="submit" id="submit">
+            <div class="button__line"></div>
+            <div class="button__line"></div>
+            <span class="button__text" onclick="submitForm()">Send Message</span>
+            <div class="button__drow1"></div>
+            <div class="button__drow2"></div>
+          </a>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="credit">
+        <img src="images/cupcake.png" class="cupcake" />
+        dearly Desserted &#169; 2023-2024
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+      lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
